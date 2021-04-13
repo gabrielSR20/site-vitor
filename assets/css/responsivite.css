@@ -93,16 +93,16 @@
 
     .images {
         margin: 0;
-        position: relative;
+        /* position: relative; */
     }
     
-    .images div {
+    /* .images div {
         display: flex;
         height: 100%;
         position: absolute;
         right: 50%;
         transform: translate(50%);
-    }
+    } */
 
     .images:first-child {
         grid-column: 1/3;
