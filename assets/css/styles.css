@@ -198,6 +198,18 @@ a {
     font-size: 0.9em;
 }
 
+.title-img {
+    color: #fff;
+    font-weight: 300;
+    background-color: #101010;
+    max-width: 250px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+    padding: 10px 0;
+}
+
 .containers-img {
     display: flex;
     flex-wrap: wrap;
