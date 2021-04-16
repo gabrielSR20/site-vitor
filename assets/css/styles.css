@@ -23,7 +23,7 @@ a {
 
 .home-container {
     height: 100vh;
-    background: url(../img/back-2.jpg) center;
+    background: url(../img/image-6.jpg) center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -195,7 +195,7 @@ a {
 
 .work-center p {
     margin-top: 70px;
-    font-size: 1.75em;
+    font-size: 0.9em;
 }
 
 .containers-img {
@@ -228,15 +228,15 @@ a {
 .images img {
     display: block;
     /* max-width: 100%; */
-    margin: 0 auto;
-    height: 100%;
+    margin: auto auto;
+    height: 90%;
     transition: .6s;
     filter: grayscale(100%);
 }
 
 .images img:hover {
     filter: unset;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .home-footer {
