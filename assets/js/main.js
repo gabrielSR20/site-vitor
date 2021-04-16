@@ -10,9 +10,10 @@ const toggle = function() {
 }
 
 
-const scroll = document.querySelectorAll(".home-menubar-links a[href^='#port']")
+const scroll = document.querySelectorAll(".home-menubar-links a[href^='#']")
     scroll.forEach(item => {
         item.addEventListener('click', scrollToIdOnClick)
+        console.log(item)
 
     })
 
@@ -21,9 +22,9 @@ const scroll = document.querySelectorAll(".home-menubar-links a[href^='#port']")
 function scrollToIdOnClick(event) {
     event.preventDefault()
     const element = event.target
+    // console.log(element.documentElement)
     const id = element.getAttribute('href')
     const section = document.querySelector(id).offsetTop
-    // console.log(section.offsetTop)
 
     window.scroll({
         top: section,

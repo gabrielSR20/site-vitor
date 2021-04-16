@@ -204,6 +204,7 @@ a {
     background-color: #101010;
     max-width: 250px;
     text-align: center;
+    margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
 
@@ -242,14 +243,14 @@ a {
     /* max-width: 100%; */
     margin: auto auto;
     height: 90%;
-    transition: .6s;
-    filter: grayscale(100%);
+    /* transition: .6s; */
+    /* filter: grayscale(100%); */
 }
 
-.images img:hover {
+/* .images img:hover {
     filter: unset;
     transform: scale(1.2);
-}
+} */
 
 .home-footer {
     height: 60px;
